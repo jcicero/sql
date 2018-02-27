@@ -1,0 +1,1 @@
+select * from produto_saidas ps, produtos p where p.id = ps.produto_id and p.codigo = 7047
