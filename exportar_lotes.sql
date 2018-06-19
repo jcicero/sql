@@ -10,7 +10,7 @@ SELECT
 FROM
   produto_entradas
 WHERE
-  estoque_id = 4
+  estoque_id = 5
   and deleted_at is NULL ;
 
 
@@ -26,5 +26,7 @@ SELECT
 FROM
   produto_saidas
 WHERE
-  estoque_id = 4
-  and deleted_at is NULL
+  estoque_id = 5
+  and deleted_at is NULL;
+
+select * from lotes order by lote
